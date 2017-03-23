@@ -1,0 +1,31 @@
+{
+  "name": "crash-tests",
+  "version": "0.0.1",
+  "description": "An API to retrieve crash test data from an external API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmacosta/crash-tests.git"
+  },
+  "author": "Lucas Acosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmacosta/crash-tests/issues"
+  },
+  "homepage": "https://github.com/lucasmacosta/crash-tests#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "joi": "^10.3.0",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "winston": "^2.3.1"
+  }
+}
