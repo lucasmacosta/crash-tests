@@ -19,10 +19,10 @@ app.use(bodyParser.json());
 require('./routes')(app);
 
 // If no route handled the request then this one will be used
-// app.use(require('./middlewares/notFound'));
+app.use(require('./middlewares/notFound'));
 
 // Error handlers are special cases of middlewares
-//  app.use(require('./middlewares/errorResponse'));
+app.use(require('./middlewares/errorResponse'));
 
 // Start express server
 app.listen(config.api.port, function () {
